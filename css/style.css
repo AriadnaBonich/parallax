@@ -1,3 +1,29 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;  
+    justify-content: center;
+  }
+  .menú{
+      list-style:none;
+      padding:0;
+      background-color: blue;
+      width: 90%;
+      max-width:1000px;
+      margin: auto;
+  }
+  .menú li a{
+      text-decoration: none;
+      color:white;
+      padding:20px;
+      display:block;
+  }
+  .menú li{
+      display:inline-block;
+      text-align: center;
+  }
+  .menú li a:hover{
+      background-color: blanchedalmond;
+  }
 *,
 *::before,
 *::after
