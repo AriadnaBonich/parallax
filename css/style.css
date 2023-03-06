@@ -73,7 +73,7 @@ section h1{
     background-size: 100%;
     z-index: -1;
 }
-.parallax bg::after{
+.bg::after{
     /*background:linear-gradient(black,black,);*/
     background-image:url("img/fons.jpg");
     background-size:cover;
