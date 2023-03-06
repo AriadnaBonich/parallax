@@ -76,4 +76,28 @@ section h1{
 .bg::after{
     background: :linear-gradient(black,black,url("./img/fons.jpg"));
     background-size:cover;
+}.container{
+    border: solid 2px;
 }
+table{
+    color: white;
+    font-size:14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+thead{
+    background-color: plum;
+}
+th{
+    padding: 20px 15px;
+    font-weight:700;
+    text-transform: uppercase;
+}
+td{
+    padding:15px;
+    border-bottom: solid 2px;
+}
+tbody tr:hover{
+    background-color: lightskyblue;
+}
+
