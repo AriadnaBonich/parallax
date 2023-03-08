@@ -6,14 +6,14 @@ body{
   .menú{
       list-style:none;
       padding:0;
-      background-color: blue;
+      background-color: rgb(59, 59, 231);
       width: 90%;
       max-width:1000px;
       margin: auto;
   }
   .menú li a{
       text-decoration: none;
-      color:white;
+      color:rgb(0, 0, 0);
       padding:20px;
       display:block;
   }
@@ -22,7 +22,7 @@ body{
       text-align: center;
   }
   .menú li a:hover{
-      background-color: blanchedalmond;
+      background-color: rgb(151, 245, 245);
   }
 *,
 *::before,
@@ -55,7 +55,7 @@ section h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 .no-parallax{
-    background-color: rgb(93, 218, 176);
+    background-color: rgb(197, 155, 221);
     z-index: 999;
 }
 .parallax h1{
